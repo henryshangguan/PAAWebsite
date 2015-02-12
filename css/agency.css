@@ -132,6 +132,18 @@ fieldset[disabled] .btn-primary.active {
     background-color: #e87511;
 }
 
+.btn-xl2 {
+    padding: 20px 40px;
+    border-color: #e87511;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #e87511;
+}
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -245,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 3em;
+        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -269,7 +281,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-takeoff-sunset.jpg);
+    background-image: url(../img/finalheader.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -286,7 +298,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     line-height: 22px;
 }
@@ -302,12 +314,12 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
+        padding-top: 225px;
         padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 22px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
@@ -315,7 +327,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
@@ -657,8 +669,8 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
+    background-image: url(../img/footer.jpg);
+    //background-position: center;
     background-repeat: no-repeat;
 }
 
