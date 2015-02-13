@@ -184,6 +184,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -663,14 +664,21 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.team-member-inline {
+    display: inline-block;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
 
+.row-center {
+    text-align: center;
+}
 section#contact {
     background-color: #222;
     background-image: url(../img/footer.jpg);
-    //background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
