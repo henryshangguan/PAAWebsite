@@ -13,6 +13,10 @@ body {
     color: #777;
 }
 
+.text-muted2 {
+    color: #777;
+}
+
 .text-primary {
     color: #e87511;
     // #e87511;
@@ -37,15 +41,15 @@ a.active {
 
 a {
     color: #e87511;
-    //#e87511;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #e87511;
 }
+
 
 h1,
 h2,
@@ -130,6 +134,7 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #e87511;
+    a:link color: #ffffff;
 }
 
 .btn-xl2 {
@@ -244,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #e87511;
 }
 
 @media(min-width:768px) {
@@ -664,6 +669,7 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+
 .team-member-inline {
     display: inline-block;
 }
@@ -672,24 +678,32 @@ aside.clients img {
     margin: 50px auto;
 }
 
-.row-center {
-    text-align: center;
+.Parent div {
+  float: left;
+  clear: none; 
 }
 section#contact {
     background-color: #222;
-    background-image: url(../img/footer.jpg);
+    background-image: url(../img/rsz_1footerpro.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    height: 600px;
 }
 
 section#contact .section-heading {
-    color: #e87511;
+    color: #696969;
+    padding-bottom: 20px;
 }
 
 section#contact .form-group {
     margin-bottom: 25px;
 }
 
+
+}
+section#contact .color-white {
+    color: #ffffff;
+}
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
@@ -700,7 +714,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 100px;
 }
 
 section#contact .form-control:focus {
@@ -740,8 +754,13 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+section#contact .link {
+    a:link {
+        color: #ffffff;
+    }
+}
 footer {
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -884,3 +903,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #e87511;
 }
+
